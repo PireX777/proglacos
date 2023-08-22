@@ -3,10 +3,22 @@
 mostre-o; não sendo, passe para o próximo passo.
 '''
 
+
+#Regra 1 da estrutura de repetição
+#declarar var contador no valor inicial da repetição
+
 cont = 0
+
+#Regra 2: testar a estrutura (while com var contador) no valor fim da repetição
+
 while cont <= 20:
-    if cont%2 != 0:
+
+#O bloco que será repetido várias vezes
+
+    if cont%2 == 1:
         print(cont)
+
+#Regra 3: incrementar a var contador na última linha dentro do bloco
     cont = cont +1
 
 

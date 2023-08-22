@@ -7,3 +7,10 @@ exibição na tela:
 (...)
 3 elevado à 15 = 14348907
 OBS: Tente fazer em uma classe utilizando Math.pow() e em outra classe sem utilizar Math.pow()'''
+
+cont = 3
+acumulador = 0
+
+while acumulador <= 15:
+    print(f"{cont} elevado á {acumulador} = {cont ** acumulador:.0f}")
+    acumulador = acumulador + 1
